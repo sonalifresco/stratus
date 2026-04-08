@@ -204,12 +204,3 @@ if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
-
-
-add_action(
-	'after_setup_theme',
-	function() {
-		add_theme_support( 'editor-styles' );
-		add_editor_style( 'assets/css/editor-style.css' );
-	}
-);
