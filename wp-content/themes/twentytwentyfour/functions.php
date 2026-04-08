@@ -213,3 +213,9 @@ add_action(
 		add_editor_style( 'assets/css/editor-style.css' );
 	}
 );
+add_action(
+	'after_setup_theme',
+	function() {
+		add_theme_support( 'wp-block-styles' );
+	}
+);
